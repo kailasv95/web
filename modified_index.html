@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ .navicon
+ {
+   float:left;
+ }
+ header a
+ {
+   text-decoration: none;
+   font-family: monospace;
+ }
+ .navlist
+ {
+   float: right;
+   text-decoration: none;
+ }
+ .navitem
+ {
+   /* margin-left: 50px; */
+   margin-right: 50px;
+ }
+.navinput
+{
+  margin-right: 7.5px;
+}
+.navbutton
+{
+  /* margin-left: 20px; */
+  margin-right: 20px;
+}
+.navicon
+{
+  font-size: 30px;
+}
+html body
+{
+  margin: 0;
+  padding: 0;
+}
+header
+{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFH-TIbE9hNl_BDLiJEpDeCvydr4W7mj8DNNWoaETq6-nCFbk9');
+  height: 100vh;
+  background-size: cover;
+    display: flex;
+    flex-flow: column;
+    position: relative;
+}
+
+
+</style>
+</head>
+
+<body>
+<header>
+    <div id="landing">
+      <nav id="navbar">
+        <div class="navicon">
+          <a href="/index">coinEx</a>
+        </div>
+        <div class="navlist">
+          <a href="/coinlist" class="navitem">CoinList</a>
+          <a href="/buy" class="navitem">Buy</a>
+          <a href="/sell" class="navitem">Sell</a>
+          <input type="email" placeholder="Email" class="navinput">
+          <input type="password" placeholder="Password" class="navinput">
+          <a href="/login" class="navbutton">Login</a>
+          <a href="/register" class="navbutton">Register</a>
+        </div>
+      </nav>
+    </div>
+</header>
+</body>
+</html>
